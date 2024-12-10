@@ -1,0 +1,139 @@
+/* General Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7; /* Light grey background for a modern feel /
+  color: #333; /* Dark gray text for better readability */
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white; /* White background for header */
+  border-bottom: 4px solid #ccc; /* Soft grey bottom border */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+/* Main Section Styles */
+main {
+  margin-top: 20px;
+}
+
+/* Section Styles */
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white; /* White background for sections */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc; /* Softer bottom border */
+}
+
+/* Paragraph Styles */
+p {
+  margin: 10px 0;
+  line-height: 1.5; /* Enhanced line height for readability */
+}
+
+/* List Styles */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Calculator Styles */
+.calculator {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background for the calculator */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px;
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+input[type="number"]:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff; /* Blue button /
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; / Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* FAQ Styles */
+.faq-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.faq-answer {
+  margin-left: 10px;
+  display: none; /* Hide answers initially */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .calculator {
+    padding: 10px;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+}
